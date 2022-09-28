@@ -30,7 +30,22 @@ const newTime=data=>{
                
 
             </div>
-           
+            <div className='health-details'>
+                    <div className='health-info'>
+                        <p>55 <small>kg</small></p>
+                        <p>weight</p>
+                    </div>
+                    <div className='health-info'>
+                        <p>6</p>
+                        <p>Height</p>
+                    </div>
+                    <div className='health-info'>
+                        <p>20 <small>yrs</small></p>
+                        <p>Age</p>
+                    </div>
+                </div>
+
+          
         </div>
     );
 };
