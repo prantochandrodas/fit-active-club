@@ -7,6 +7,7 @@ import './Main.css'
 const Main = () => {
     const [carts, setCarts] = useState([]);
     const [details,setDetails]=useState([]);
+   
 
     useEffect(() => {
         fetch('info.json')
@@ -38,6 +39,7 @@ const Main = () => {
             </div>
             <div className='show-details'>
                 <Details
+               
                     details={details}
                 ></Details>
             </div>
