@@ -1,0 +1,12 @@
+.header{
+    display: flex;
+    align-items: center;
+    padding-left: 150px;
+    padding-top: 50px;
+    color: rgb(189, 143, 73);
+    font-size: 30px;
+    background-color: rgb(220, 220, 224);
+}
+.header h2{
+    margin-left: 10px;
+}
