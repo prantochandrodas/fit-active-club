@@ -2,7 +2,11 @@
     background-color: rgb(220, 220, 224);
     display: grid;
     grid-template-columns: 4fr 1fr;
+    margin: 50px;
 }
-.select-exercise{
-    margin: 0 140px;
+
+.selected-exercise-cart{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
 }
