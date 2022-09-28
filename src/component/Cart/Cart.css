@@ -28,3 +28,16 @@
 .cart-button:hover{
         background-color:rgb(236, 150, 11); ;
 }
+@media only screen and (max-width:688px){
+        .cart{
+                width: 100%;
+        }
+        .cart img{
+                width: 100%;
+                margin: 0;
+                margin-top: 7px;
+        }
+        .cart-info{
+                margin: 0;
+        }
+}

@@ -26,7 +26,7 @@ const Main = () => {
                     <FontAwesomeIcon icon={faDumbbell}></FontAwesomeIcon>
                     <h2>Fit-Active-Club</h2>
                 </div>
-                <h3>Select today's exercise </h3>
+                <h3 className='select-h3'>Select today's exercise </h3>
                 <div className='selected-exercise-cart'>
                     {
                         carts.map(cart => <Cart

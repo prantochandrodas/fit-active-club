@@ -55,7 +55,7 @@ const newTime=data=>{
                     </div>
 
             </div>
-            <div className='extra-details'>
+            <div className='exercise-details'>
                 <h3>Exercise Details</h3>
                 <div className='exercise-time'>
                     <p>Exercise Time: <small>{Time} Sec</small></p>
