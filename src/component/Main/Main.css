@@ -3,12 +3,27 @@
     display: grid;
     grid-template-columns: 4fr 1fr;
 
-    margin: 50px;
+    
+  
+}
+.select-exercise{
+    margin: 100px;
     margin-top: 0;
 }
-
 .selected-exercise-cart{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 20px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    
+    padding-top: 50px;
+    color: rgb(189, 143, 73);
+    font-size: 30px;
+}
+.show-details{
+    
+    background-color:bisque;
 }

@@ -1,7 +1,7 @@
 .cart{
  
-        width: 300px;
-        height: 510px;
+        width: 248px;
+        height: 458px;
         border: 1px solid #95A0A7;
         border-radius: 8px;
         position: relative;
@@ -9,8 +9,8 @@
 }
 .cart img{
    
-        width: 286px;
-        height: 286px;
+        width: 235px;
+        height: 250px;
         border-radius: 8px;
         margin: 7px;
 
