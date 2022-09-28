@@ -15,3 +15,16 @@
         margin: 7px;
 
 }
+.cart-info{
+        margin: 0 7px;
+}
+.cart-button{
+        width: 95%;
+        height: 40px;
+        background-color: rgb(220, 193, 149);
+        border: none;
+        border-radius: 8px;
+}
+.cart-button:hover{
+        background-color:rgb(236, 150, 11); ;
+}

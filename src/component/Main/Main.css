@@ -2,7 +2,9 @@
     background-color: rgb(220, 220, 224);
     display: grid;
     grid-template-columns: 4fr 1fr;
+
     margin: 50px;
+    margin-top: 0;
 }
 
 .selected-exercise-cart{
