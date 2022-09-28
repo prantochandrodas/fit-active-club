@@ -45,7 +45,17 @@ const newTime=data=>{
                     </div>
                 </div>
 
-          
+            <div className='add-breaks'>
+                    <h3>Add A Breaks</h3>
+                    <div className='add-break-btn'>
+                        <button onClick={()=>newTime(10)}>10s</button>
+                        <button onClick={()=>newTime(20)}>20s</button>
+                        <button onClick={()=>newTime(30)}>30s</button>
+                        <button onClick={()=>newTime(40)}>40s</button>
+                    </div>
+
+            </div>
+     
         </div>
     );
 };
