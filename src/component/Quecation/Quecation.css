@@ -1,0 +1,7 @@
+@media screen and (min-width:687px) and (max-width:991px){
+    .quesation{
+        font-size: 30px;
+        width: 96%;
+        margin: 0 3%;
+    }
+}
