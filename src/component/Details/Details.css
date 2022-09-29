@@ -72,6 +72,43 @@
     background-color: orange;
 }
 
+
+@media screen and (min-width:687px) and (max-width:991px){
+    .personal-info img {
+        width: 80px;
+        border-radius: 8px;
+        margin-right: 0px;
+
+    }
+    .personal-info{
+        font-size: 30px;
+    }
+    .health-details{
+        font-size: 40px;
+    }
+    .add-break-btn {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 20px;
+      
+    }
+    .add-break-btn button{
+        font-size: 30px;
+        height: 60px;
+    }
+    .add-breaks h3{
+        font-size: 40px;   
+    }
+    .exercise-details h3{
+        font-size: 40px;
+    }
+    .exercise-time p{
+        font-size: 50px;
+    }
+    .exercise-time small{
+        font-size: 40px;
+    }
+}
 @media only screen and (max-width:688px) {
     .details {
         position: sticky;
@@ -108,6 +145,9 @@
       margin-top: 10px;
       font-size: 30px;
       height: 60px;
+    }
+    .add-break-btn button:hover{
+        background-color: orange;
     }
     .add-breaks h3{
         font-size: 30px;

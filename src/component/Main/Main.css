@@ -28,6 +28,41 @@
     background-color: bisque;
 }
 
+@media screen and (min-width:687px) and (max-width:991px){
+    .main-container {
+        display: flex;
+        flex-direction: column;
+        /* margin: 0 10px;  */
+    }
+
+    .selected-exercise-cart {
+        width: 94%;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+        margin: 0 3% ;
+        margin-bottom: 20px;
+
+    }
+
+    .select-exercise {
+        margin: 0;
+    }
+
+    .logo {
+        font-size: 30px;
+        padding-top: 0;
+    }
+
+    .select-h3 {
+        font-size: 30px;
+        padding-left: 10px;
+    }
+
+}
+
+
+/* mobile responsive */
+
 @media only screen and (max-width:688px) {
     .main-container {
         display: flex;
