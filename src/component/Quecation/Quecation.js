@@ -23,7 +23,8 @@ const Quecation = () => {
                          </p>
             </div>
             <div>
-
+                <h3>3.Benefits of useEffect in react.</h3>
+                <p>Ans:-Using useEffect is probably the best part of React Hooks. It helps reduce the clutter of the component lifecycle methods and, most importantly, it helps separate different logic that can appear in the lifecycle methods.</p>
             </div>
         </div>
     );
