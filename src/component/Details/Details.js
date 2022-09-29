@@ -3,6 +3,7 @@ import './Details.css';
 import pic from '../../img/My-img.jpg';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import { addToDb, getSetTime } from '../../utilities/fakedb';
 // import { Toast } from 'react-toastify/dist/components';
 const Details = (props) => {
     const { details } = props;
@@ -13,10 +14,15 @@ const Details = (props) => {
 
     }
    const [breakTime,SetBreakTime]=useState([0]);
+   useEffect(()=>{
+    const storedTime =getSetTime();
+    SetBreakTime(storedTime);
+   },[breakTime])
   
 const newTime=data=>{
     // console.log(data);
     SetBreakTime(data);
+    addToDb(data);   
 }
   
 
