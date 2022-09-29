@@ -4,4 +4,12 @@
         width: 96%;
         margin: 0 3%;
     }
+
+}
+@media only screen and (max-width:688px){
+    .quesation {
+        font-size: 30px;
+        width: 96%;
+        margin: 0 3%;
+    }
 }
