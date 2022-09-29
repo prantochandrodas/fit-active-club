@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 
 import Main from './component/Main/Main';
+// import Quecation from './component/Quecation/Quecation';
 
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
     <div className='app-bg'>
    
       <Main></Main>
+      
     </div>
   );
 }

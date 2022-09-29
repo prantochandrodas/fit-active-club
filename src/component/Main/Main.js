@@ -3,20 +3,21 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React, { useEffect, useState } from 'react';
 import Cart from '../Cart/Cart';
 import Details from '../Details/Details';
+import Quecation from '../Quecation/Quecation';
 import './Main.css'
 const Main = () => {
     const [carts, setCarts] = useState([]);
-    const [details,setDetails]=useState([]);
-   
+    const [details, setDetails] = useState([]);
+
 
     useEffect(() => {
         fetch('info.json')
             .then(res => res.json())
             .then(data => setCarts(data))
     }, []);
-    const handelTimeDetails=(detail)=>{
-     
-        const newDetails=[...details,detail];
+    const handelTimeDetails = (detail) => {
+
+        const newDetails = [...details, detail];
         setDetails(newDetails);
     }
     return (
@@ -30,19 +31,24 @@ const Main = () => {
                 <div className='selected-exercise-cart'>
                     {
                         carts.map(cart => <Cart
-                            cart={cart} 
+                            cart={cart}
                             key={cart.id}
                             handelTimeDetails={handelTimeDetails}
-                            ></Cart>)
+                        ></Cart>)
                     }
                 </div>
+                <div>
+                    <Quecation></Quecation>
+                </div>
             </div>
+
             <div className='show-details'>
                 <Details
-               
+
                     details={details}
                 ></Details>
             </div>
+
         </div>
     );
 };
