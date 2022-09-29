@@ -1,8 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import './Details.css';
 import pic from '../../img/My-img.jpg';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLocation, faLocationDot } from '@fortawesome/free-solid-svg-icons';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+// import { Toast } from 'react-toastify/dist/components';
 const Details = (props) => {
     const { details } = props;
     // console.log(details);
@@ -18,6 +19,12 @@ const newTime=data=>{
     SetBreakTime(data);
 }
   
+
+const addToast=()=>{
+    toast.success('Activity Completed',{
+        position:'top-center'
+    });
+}
     return (
         <div className='details'>
             <div className='personal-info'>
@@ -62,6 +69,10 @@ const newTime=data=>{
                     <p>Break Time: <small>{breakTime}Sec</small></p>
                 </div>
                 <div></div>
+            </div>
+            <div className='activity-complited'>
+                <button className='activity-complited-button' onClick={addToast}>Activity Completed</button>
+                <ToastContainer></ToastContainer>
             </div>
         </div>
     );

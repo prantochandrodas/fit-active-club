@@ -71,7 +71,14 @@
 .add-break-btn button:hover {
     background-color: orange;
 }
-
+.activity-complited-button{
+    height: 30px;
+    background-color: rgba(226, 151, 39, 0.879);
+    border: none;
+    border-radius: 3px;
+    width: 100%;
+    margin-top: 20px;
+}
 
 @media screen and (min-width:687px) and (max-width:991px){
     .personal-info img {
@@ -107,6 +114,15 @@
     }
     .exercise-time small{
         font-size: 40px;
+    }
+    .activity-complited-button{
+        height: 60px;
+        background-color: rgba(226, 151, 39, 0.879);
+        border: none;
+        border-radius: 5px;
+        width: 100%;
+        margin-top: 20px;
+        font-size: 35px;
     }
 }
 @media only screen and (max-width:688px) {
@@ -160,5 +176,14 @@
     }
     .exercise-time small {
         font-size: 25px;
+    }
+    .activity-complited-button{
+        height: 60px;
+        background-color: rgba(226, 151, 39, 0.879);
+        border: none;
+        border-radius: 5px;
+        width: 100%;
+        margin-top: 20px;
+        font-size: 30px;
     }
 }
